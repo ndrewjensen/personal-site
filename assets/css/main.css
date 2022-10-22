@@ -1722,8 +1722,31 @@ input, select, textarea {
 		width: 49%;
 	}
 
+	.projects-container {
+		/* display: flex; */
+		position: relative;
+		justify-items: stretch;
+		justify-content: top;
+		align-content: center;
+	}
+
 	.project {
 		box-shadow: 0 4px 8px 0 rgba(212, 210, 210, 0.2), 0 6px 20px 0 rgba(209, 202, 202, 0.2);
 		padding: 15px 15px 10px 15px;
 		margin-bottom: 15px;	
+		width: 49%;
+		position: relative;
+		display: inline-block;
+		align-self: flex-start;
+		justify-self: flex-start;
+		height: 350px;
+	}
+
+	.link-decoration {
+		transition: border-bottom-color 0.2s ease-in-out;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+	}
+
+	.link-decoration:hover {
+		border-bottom-color: transparent;
 	}

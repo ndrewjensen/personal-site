@@ -6,6 +6,15 @@
 -->
 <html>
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7W0DP8FNB"></script>
+		<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-J7W0DP8FNB');
+		</script>
 		<title>Andrew Jensen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -35,7 +44,7 @@
 								<li><a href="#skills">Skills</a></li>
 								<li><a href="#projects">Projects</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<li><a href="#elements">Elements</a></li>
+								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
 					</header>
@@ -46,7 +55,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<p>As an engineer, I value code that is easy to read, easy to maintain, and readily testable. I think debt is useful for personal and corporate finance, not codebases.</p>
+								<p>As an engineer, I value code that is easy to read, easy to maintain, and readily testable. I think debt is useful for personal and corporate finance, but we should be as cautious about accumulating debt in a codebase as we are in life.</p>
 								<p>As a human, I value growth, grace, and quality. I adore my grubby, outdoorsy mountain family. My favorite place to be is on a trail with them, particularly on a mountainside headed towards a cool alpine lake. Robert M. Persig wrote a line in <i>Zen and the Art of Motorcycle Maintenance</i> that has stuck with me for decades, "It's the sides of the mountain which sustain life, not the top." The literal text and the metaphor both resonate with me deeply: the former puts my imagination where I want to be, the latter reflects my outlook on life, and on work.</p>
 								<div id="intro-image" class="image main intro"><img src="images/IMG_2585.JPG" alt="Andrew Headshot" /></div>
 							</article>
@@ -55,69 +64,102 @@
 							<article id="skills">
 								<h2 class="major">Skills</h2>
 								<!-- <span class="image main"><img src="images/pic02.jpeg" alt="" /></span> -->
-								<h4>Languages</h4> <p>JavaScript, TypeScript, Python, HTML, CSS, SQL, PostgreSQL,GraphQL</p>
-								<h4>Frameworks and Tools</h4> <p>Node, Express, Jest, Flask, SQLAlchemy, unittest, VSCode, Git, Github</p>
-								<h4>Libraries</h4><p>React, React Testing Library, Bootstrap</p>
+								<h3>Languages:</h3> <p>JavaScript, TypeScript, Python, HTML, CSS, SQL, PostgreSQL,GraphQL</p>
+								<h3>Frameworks and Tools:</h3> <p>Node, Express, Jest, Flask, SQLAlchemy, unittest, VSCode, Git, Github</p>
+								<h3>Libraries:</h3><p>React, React Testing Library, Bootstrap</p>
 							</article>
 
 						<!-- Projects -->
 							<article id="projects">
 								<h2 class="major">Projects</h2>
-								<section class="project">
-									<a target="_blank" href=""></a>
-										<h3>ShareBnb <a target="_blank" href="https://github.com/ndrewjensen/share-bnb-frontend" class="icon brands fa-github"><span class="label">GitHub</span>Front </a><a target="_blank" href="https://github.com/raytene-han/share-bnb-backend" class="icon brands fa-github"><span class="label">GitHub</span>Back</a></h3>
-										<p>An AirBnb clone with a Python/Flask backend and a JavaScript/React frontend.</p>
-										<span class="image main"><img src="images/interior.jpeg" alt="attractive living room" /></span>
-								</section>
-								<section class="project"></a>
-									<a target="_blank" href="https://flashy-market.surge.sh/">
-										<h3>Jobly <a target="_blank" href="https://github.com/ndrewjensen/full-stack-jobly" class="icon brands fa-github"><span class="label">GitHub</span></a></h3>
-										<p>A job posting site with a Node/Express backend and a JavaScript/React frontend.</p>
-										<span class="image main"><img src="images/forhire.jpeg" alt="attractive living room" /></span>
-								</section>
-								<section class="project"></a>
-									<a target="_blank" href="https://warbler-aj.herokuapp.com/">
-										<h3>Warbler <a target="_blank" href="https://github.com/ndrewjensen/warbler" class="icon brands fa-github"><span class="label">GitHub</span></a></h3>
-										<p>An Twitter clone with a Python/Flask backend using Jinja to render the frontend.</p>
-										<span class="image main"><img src="images/warbler.jpeg" alt="attractive living room" /></span>
-								</section>
-								
+								<section class="projects-container">
+									<div class="project">
+										<a target="_blank" href="https://www.loom.com/share/ed49f6fd9c764504a7bd4c8ad0fddd47">
+											<h3><span class="link-decoration">Foqal.io</span></h3>
+											<h4><span class="link-decoration">Loom Demo</span></h4>
+											<p>During my Foqal.io internship I worked on their TypeScript/React frontend.</p>
+											<span class="image main"><img src="images/foqal.png" alt="screenshot of foqal.io" /></span>
+										</a>
+									</div>
+									<div class="project">
+										<h3>
+											<a target="_blank" href="">
+												ShareBnb
+											</a>
+										</h3>
+										<h4>
+											<a target="_blank" href="https://github.com/ndrewjensen/share-bnb-frontend" class="icon brands fa-github">
+												<span class="label">GitHub</span>
+												Front 
+											</a>
+											<a target="_blank" href="https://github.com/raytene-han/share-bnb-backend" class="icon brands fa-github">
+												<span class="label">
+													GitHub
+												</span>
+													Back
+											</a>
+										</h4>
+										<a target="_blank" href="">
+											<p>An AirBnb clone with a Python/Flask backend and a JavaScript/React frontend.</p>
+											<span class="image main"><img src="images/interior.jpeg" alt="attractive living room" /></span>
+										</a>
+									</div>
+									<div class="project">
+										<h3>
+											<a target="_blank" href="https://flashy-market.surge.sh/">
+												Jobly 
+											</a>
+										</h3>
+										<h4>
+											<a target="_blank" href="https://github.com/ndrewjensen/full-stack-jobly" class="icon brands fa-github">
+												<span class="label">GitHub</span>
+												Full Stack
+											</a>
+										</h4>
+										<a target="_blank" href="https://flashy-market.surge.sh/">
+											<p>A job posting site with a Node/Express backend and a JavaScript/React frontend.</p>
+											<span class="image main"><img src="images/forhire.jpeg" alt="for hire sign" /></span>
+										</a>
+									</div>
+									<div class="project">
+											<h3>
+												<a target="_blank" href="https://warbler-aj.herokuapp.com/">
+													Warbler
+												</a>
+											</h3>
+											<h4>
+												<a target="_blank" href="https://github.com/ndrewjensen/warbler" class="icon brands fa-github">
+													<span class="label">GitHub</span>
+													Full Stack
+												</a>
+											</h4>
+											<a target="_blank" href="https://warbler-aj.herokuapp.com/">
+												<p>An Twitter clone with a Python/Flask backend using Jinja to render the frontend.</p>
+												<span class="image main"><img src="images/warbler.jpeg" alt="warbler on a branch" /></span>
+											</a>
+										</div>	
+									</section>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-<!-- 								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form> -->
-								<ul class="icons">
-									<li><a target="_blank" href="https://github.com/ndrewjensen" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a target="_blank" href="https://www.linkedin.com/in/andrew-jensen-cfa/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<!-- <li><a target="_blank" href="#" class="icon fa-envelope"><span class="label">Email</span></a></li> -->
-								</ul>
+<!-- 								<ul class="icons">
+									<li><h4>andrewkjensen@gmail.com | </h4></li>
+									<li><h4><a target="_blank" href="https://github.com/ndrewjensen" class="icon brands fa-github"><span class="label">GitHub</span></a>| </h4></li>
+									<li><h4><a target="_blank" href="https://www.linkedin.com/in/andrew-jensen-cfa/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></h4></li>
+								</ul> -->
+								<section class="icons">
+									<h3>
+										<a href="mailto:andrewkjensen@gmail.com">andrewkjensen@gmail.com</a>
+										| <a target="_blank" href="https://www.linkedin.com/in/andrew-jensen-cfa/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span> | </a>
+										<a target="_blank" href="https://github.com/ndrewjensen/warbler" class="icon brands fa-github"><span class="label">GitHub</span></a>
+									</h3>
 							</article>
 
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Elements</h2>
-
 								<section>
 									<h3 class="major">Text</h3>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -359,7 +401,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Swiss Photos and Headshot: Andrew Jensen. Project Photos: Unsplash. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"><!-- &copy; Untitled.  -->Swiss Photos and Headshot: Andrew Jensen. Project Photos: Unsplash. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
