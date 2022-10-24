@@ -1894,7 +1894,7 @@ input, select, textarea {
 
 	.row {
 		margin-top: -30px;
-		margin-left: -30px;
+		margin-left: -25px;
 	}
 
 		.row > * {
@@ -2390,7 +2390,7 @@ input, select, textarea {
 
 			.row {
 				margin-top: -30px;
-				margin-left: -30px;
+				margin-left: -15px;
 			}
 
 				.row > * {
@@ -2635,7 +2635,7 @@ input, select, textarea {
 
 			.row {
 				margin-top: -40px;
-				margin-left: -40px;
+				margin-left: -25px;
 			}
 
 				.row > * {
@@ -2880,7 +2880,7 @@ input, select, textarea {
 
 			.row {
 				margin-top: -20px;
-				margin-left: -20px;
+				margin-left: -10px;
 			}
 
 				.row > * {
@@ -2967,7 +2967,7 @@ input, select, textarea {
 }
 
 #intro-image {
-	
+	justify-self: center;
 	flex-direction: column;
 	
 }
@@ -2994,11 +2994,12 @@ input, select, textarea {
 
 .projects-container {
 	display: flex;
+	box-sizing: border-box;
 /* 	position: relative;
 	justify-items: stretch;
 	justify-content: top;
 	align-content: center; */
-	/* justify-content: space-around; */
+	justify-content: space-between;
 }
 
 .project {
