@@ -1893,8 +1893,8 @@ input, select, textarea {
 			}
 
 	.row {
-		margin-top: -50px;
-		margin-left: -50px;
+		margin-top: -30px;
+		margin-left: -30px;
 	}
 
 		.row > * {
@@ -1902,7 +1902,7 @@ input, select, textarea {
 		}
 
 		.row.gtr-uniform {
-			margin-top: -50px;
+			margin-top: -30px;
 		}
 
 			.row.gtr-uniform > * {
@@ -2140,8 +2140,8 @@ input, select, textarea {
 					}
 
 			.row {
-				margin-top: -50px;
-				margin-left: -50px;
+				margin-top: -30px;
+				margin-left: -30px;
 			}
 
 				.row > * {
@@ -2149,7 +2149,7 @@ input, select, textarea {
 				}
 
 				.row.gtr-uniform {
-					margin-top: -50px;
+					margin-top: -30px;
 				}
 
 					.row.gtr-uniform > * {
@@ -3032,4 +3032,8 @@ input, select, textarea {
 
 .projects-header {
 	margin-bottom: 1rem !important;
+}
+
+.project:hover {
+	box-shadow: none;
 }
