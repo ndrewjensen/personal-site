@@ -1943,6 +1943,10 @@ input, select, textarea {
 				padding-top: 100px;
 			}
 
+	.row > .col-6-medium {
+		width: 50%;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.row {
